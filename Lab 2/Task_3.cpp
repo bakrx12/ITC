@@ -2,6 +2,7 @@
 using namespace std;
 int main()
 {
+    // as given in instruction document of lab 2
     int a = 2 + 3/5 - 8 * 3 + 123 % 10 - 2 * 10 + 123/10;
     cout << "1. 2 + 3/5 - 8 * 3 + 123 % 10 - 2 * 10 + 123/10 = " << a << endl;
 
