@@ -4,8 +4,8 @@ using namespace std;
 int main()
 {
     cout << "=============== Personal Information ==================" << endl;
-    cout << "1. Full Name: Abeeha Yousaf" << endl;
-    cout << "2. Registration No: L1S26BSCS0065" << endl;
+    cout << "1. Full Name: AbuBakr Aslam" << endl;
+    cout << "2. Registration No: L1S26BSCS0052" << endl;
     cout << "3. Intermediate Program: ICS" << endl;
     cout << "4. Hobbies: Reading, Programming, Gaming" << endl;
     cout << "5. Goal in Life: Software Engineer with creative UI/UX" << endl;
