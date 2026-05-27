@@ -3,18 +3,18 @@ using namespace std;
 
 int main()
 {
-    float rectangleLength;
-    float rectangleWidth;
+    float rectangleLength = 0.0;
+    float rectangleWidth = 0.0;
 
-    float radius;
+    float radius = 0;
 
-    int cafeteriaFood;
+    int cafeteriaFood=0;
 
-    int ucpStudents;
+    int ucpStudents=0;
 
-    float poolLength;
-    float poolWidth;
-    float poolDepth;
+    float poolLength=0.0;
+    float poolWidth=0.0;
+    float poolDepth=0.0;
 
     cout << "Enter rectangle length: ";
     cin >> rectangleLength;
