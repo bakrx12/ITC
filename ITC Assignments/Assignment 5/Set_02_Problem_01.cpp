@@ -8,3 +8,45 @@ Number of lowercase English characters is 3
 Number of uppercase English characters is 3
 Number of digit English characters is 4
 */
+
+using namespace std;
+
+int main()
+{
+    char ch = '\0';
+    int times = 10;
+    int lowercase = 0;
+    int uppercase = 0;
+    int digits = 0;
+
+    while(times > 0)
+    {
+        cout << "Enter a character: ";
+        cin >> ch;
+
+        if(ch >= 'a' && ch <= 'z')
+        {
+            lowercase++;
+        }
+
+        if(ch >= 'A' && ch <= 'Z')
+        {
+            uppercase++;
+        }
+
+        if(ch >= '0' && ch <= '9')
+        {
+            digits++;
+        }
+
+        times--;
+    }
+
+    cout << "Number of lowercase English characters is " << lowercase << endl;
+
+    cout << "Number of uppercase English characters is " << uppercase << endl;
+
+    cout << "Number of digit English characters is " << digits << endl;
+
+    return 0;
+}
