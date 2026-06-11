@@ -26,6 +26,7 @@ int main()
     cin >> n;
     cout << endl;
 
+    //square or rectangle (filled)
     if (choice == 1)
     {
         for (int i = 0; i<=n-1; i++)
@@ -38,6 +39,7 @@ int main()
         }
     }
 
+    //increasing triangle
     else if (choice == 2)
     {
         for (int i = 0; i<n; i++)
@@ -50,6 +52,7 @@ int main()
         }
     }
 
+    //decreasing triangle
     else if (choice == 3)
     {
         for (int i =0; i<=n; i++)
@@ -62,6 +65,7 @@ int main()
         }
     }
 
+    //right sided increasing triangle
     else if (choice == 4)
     {
         for (int i = 0; i<=n; i++)
@@ -78,6 +82,7 @@ int main()
         }
     }
 
+    //right sided decreasing triangle
     else if (choice == 5)
     {
         for (int i = 0; i<=n; i++)
